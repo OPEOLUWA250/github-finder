@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: calc(100vh - 65px);
+}
+ 
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.avatar {
+    width: 100%;
+}
+
+.repo {
+    border-radius: 0.5rem;
+}
+  
+.repo-info {
+    border: 1px solid rgb(214, 214, 214);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p > a {
+    text-decoration: underline;
+}
