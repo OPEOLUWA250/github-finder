@@ -27,16 +27,16 @@ $(document).ready(function () {
            
              <div class="repo-intro">
                 <div class="row p-2 repo-info">
-                   <div class="col-md-7">
+                   <div class="col-md-7 mb-1">
                       <strong>${repo.name}</strong>
                    </div>
                    <div class="col-md-3">
-                   <span class="btn btn-dark repo">Forks: ${repo.forks_count}</span>
-                   <span class="btn btn-primary repo">Watchers: ${repo.watchers_count}</span>
-                   <span class="btn btn-success repo">Stars: ${repo.stargazers_count}</span>
+                   <span class="btn btn-dark repo repo-btn mb-2">Forks: ${repo.forks_count}</span>
+                   <span class="btn btn-primary repo repo-btn mb-2">Watchers: ${repo.watchers_count}</span>
+                   <span class="btn btn-success repo repo-btn mb-2">Stars: ${repo.stargazers_count}</span>
                    </div>
                    <div class="col-md-2">
-                      <a href="{repo.html_url}" target="_blank" class="btn btn-secondary repo">Repo Page</a>
+                      <a href="{repo.html_url}" target="_blank" class="btn btn-secondary repo-btn repo mb-2">Repo Page</a>
                    </div>
                 </div>
              </div>
@@ -52,13 +52,13 @@ $(document).ready(function () {
                 <div class="row">
                   <div class="col-md-3">
                     <img class="img-thumbnail avatar" src="${user.avatar_url}">
-                    <a target="_blank" class="btn btn-danger btn-block" href="${user.html_url}">View Profile</a>
+                    <a target="_blank" class="btn btn-danger btn-block mb-3" href="${user.html_url}">View Profile</a>
                   </div>
                   <div class="col-md-9">
-                      <span class="btn btn-dark repo">Public Repos: ${user.public_repos}</span>
-                      <span class="btn btn-primary repo">Public Gists: ${user.public_repos}</span>
-                      <span class="btn btn-success repo">Followers: ${user.followers}</span>
-                      <span class="btn btn-info repo">Following: ${user.following}</span>
+                      <span class="mb-2 btn btn-dark repo">Public Repos: ${user.public_repos}</span>
+                      <span class="mb-2 btn btn-primary repo">Public Gists: ${user.public_repos}</span>
+                      <span class="mb-2 btn btn-success repo">Followers: ${user.followers}</span>
+                      <span class="mb-2 btn btn-info repo">Following: ${user.following}</span>
                       <br><br>
                       <ul class="list-group">
                         <li class="list-group-item">Company: ${user.company}</li>
