@@ -36,7 +36,7 @@ $(document).ready(function () {
                    <span class="btn btn-success repo repo-btn mb-2">Stars: ${repo.stargazers_count}</span>
                    </div>
                    <div class="col-md-2">
-                      <a href="{repo.html_url}" target="_blank" class="btn btn-secondary repo-btn repo mb-2">Repo Page</a>
+                      <a href="${repo.html_url}" target="_blank" class="btn btn-secondary repo-btn repo mb-2">Repo Page</a>
                    </div>
                 </div>
              </div>
